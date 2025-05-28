@@ -26,10 +26,11 @@ public class CartItem {
         return quantity;
     e ci ritorna la quantita
     }
-
+    Ora abbiamo fatto un metodo publico che non ritora niente perche e void che incrementa la quantita
     public void increaseQuantity(int amount) {
         if (amount > 0) {
             quantity += amount;
+    con una condizione if che deve essere maggiore di 0
         }
     }
 
