@@ -15,7 +15,7 @@ public class CashRegister {
     private CartItem[] items;
     private int itemCount;
     private final double TAX_RATE = 0.22;
-/**
+/** Abbiamo fatto una classe public dove facciamo un array e inizializziamo la variabile a 0
     public CashRegister() {
         items = new CartItem[10];
         itemCount = 0;
