@@ -33,7 +33,7 @@ public class CartItem {
     con una condizione if che deve essere maggiore di 0
         }
     }
-
+ Abbiamo fatto la stessa cosa pero qua decresce
     public void decreaseQuantity(int amount) {
         if (amount > 0 && quantity - amount > 0) {
             quantity -= amount;
