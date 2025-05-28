@@ -13,7 +13,7 @@ public class CartItem {
     Sotto il costruttore abbiamo messo il metodo this che vuol dire questo parametro e uguale all'attributo esterno
     @Param i parametri sono product e quantity
     }
-
+   Abbiamo fatto il metodo get che ci ritorna un valore
     public double getSubtotal() {
         return product.getPrice() * quantity;
     }
