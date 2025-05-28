@@ -15,7 +15,10 @@ public class CashRegister {
     private CartItem[] items;
     private int itemCount;
     private final double TAX_RATE = 0.22;
-/** Abbiamo fatto una classe public dove facciamo un array e inizializziamo la variabile a 0
+
+    /** Abbiamo fatto una classe public dove facciamo un array e inizializziamo la variabile a 0
+
+     */
     public CashRegister() {
         items = new CartItem[10];
         itemCount = 0;
@@ -31,6 +34,11 @@ public class CashRegister {
         }
     }
 
+    /** Abbiamo fatto una classe public che non ritorna niente e dentro ci passiamo i parametri
+     */
+     /** @param product
+      @param quantity
+     */
     public void addItem(Product product, int quantity) {
         for (int i = 0; i < itemCount; i++) {
             if (items[i].getProduct().getName().equals(product.getName())) {
