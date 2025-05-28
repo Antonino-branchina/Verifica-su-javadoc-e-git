@@ -10,7 +10,8 @@ public class CartItem {
     public CartItem(Product product, int quantity) {
         this.product = product;
         this.quantity = quantity;
-    Sotto il costruttore abbiamo messo il metodo thi
+    Sotto il costruttore abbiamo messo il metodo this che vuol dire questo parametro e uguale all'attributo esterno
+    @Param i parametri sono product e quantity
     }
 
     public double getSubtotal() {
