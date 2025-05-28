@@ -6,6 +6,12 @@ package cashregister.src;
 public class FoodProduct extends Product {
     private String expirationDate;
 
+    /**Abbiamo fatto una classe DoodProduct dove usa i parametri e usa i metodi super e this il metodo super e lo stesso di quello this, pero quello super ederetida dalla classe padre.
+     *
+     * @param name
+     * @param price
+     * @param expirationDate
+     */
     public FoodProduct(String name, double price, String expirationDate) {
         super(name, price);
         this.expirationDate = expirationDate;
