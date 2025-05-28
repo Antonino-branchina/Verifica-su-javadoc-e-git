@@ -8,8 +8,14 @@ package cashregister.src;
  /** Abbiamo fatto una classe publica chiamata ElectronicProduct che extends cioe estende eredita gli attributi da una classe padre
 public class ElectronicProduct extends Product {
     private int warrantyMonths;
-
-    public ElectronicProduct(String name, double price, int warrantyMonths) {
+*/
+/** Abbiamo fatto una classe publica  dove ha dei parametri nome prince ed ecc..
+ */
+ /**@param name
+ * @param price
+ * @param warrantyMonths
+ */
+public ElectronicProduct(String name, double price, int warrantyMonths) {
         super(name, price);
         this.warrantyMonths = warrantyMonths;
     }
