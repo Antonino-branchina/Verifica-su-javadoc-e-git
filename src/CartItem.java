@@ -21,9 +21,10 @@ public class CartItem {
     public Product getProduct() {
         return product;
     }
-
+    Ora abbiamo fatto il meotodo get con la quantita
     public int getQuantity() {
         return quantity;
+    e ci ritorna la quantita
     }
 
     public void increaseQuantity(int amount) {
