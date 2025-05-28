@@ -15,6 +15,7 @@ public class ElectronicProduct extends Product {
  * @param price
  * @param warrantyMonths
  */
+ /**Abbiamo fatto una classe publica con i parametri che sono nella parentesi tonda e facciamo 2 metodi super e this, il metodo super e lo stesso di quello this , pero solo eredita da una classe padre
 public ElectronicProduct(String name, double price, int warrantyMonths) {
         super(name, price);
         this.warrantyMonths = warrantyMonths;
