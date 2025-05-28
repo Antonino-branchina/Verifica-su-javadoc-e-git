@@ -68,6 +68,10 @@ public class CashRegister {
         }
     }
 
+    /** Abbiamo fatto una classe publica double e un valore booleano e la inizializza la variabile a 0.0 e fa un for e ritorna il totale in base alla condizione
+     */
+     /** @return
+     */
     public double calculateSubtotal() {
         double total = 0.0;
         for (int i = 0; i < itemCount; i++) {
