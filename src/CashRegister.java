@@ -50,6 +50,10 @@ public class CashRegister {
         items[itemCount++] = new CartItem(product, quantity);
     }
 
+    /** Abbiamo fatto un metodo publico che non ritorna niente e facciamo dentro una condizione for e in base alla condizione se e maggiore o minore fa qualcosa
+     */
+     /** @param productName
+     */
     public void removeItemByName(String productName) {
         for (int i = 0; i < itemCount; i++) {
             if (items[i].getProduct().getName().equalsIgnoreCase(productName)) {
