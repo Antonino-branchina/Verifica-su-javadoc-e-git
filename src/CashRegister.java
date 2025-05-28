@@ -79,7 +79,7 @@ public class CashRegister {
         }
         return total;
     }
-
+/** Abbiamo fatto una classe pubilca e double che calcola il totale con una condizione
     public double calculateTotalWithTax() {
         return calculateSubtotal() * (1 + TAX_RATE);
     }
